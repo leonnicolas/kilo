@@ -1,4 +1,7 @@
 on:
+  push:
+    tags:
+      - "*"
   release:
     types: [created]
 name: Handle Release
